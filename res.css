@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header {
+    background: #007bff;
+    color: aquamarine;
+    padding: 30px 0;
+    text-align: center;
+}
+nav a:hover{
+    color: aqua;
+    
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    width: 30%;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+footer{
+    text-decoration: dotted;
+    padding: 10px 0;
+    background-color: #007bff;
+}
+
+input[type="text"],
+input[type="email"],
+input

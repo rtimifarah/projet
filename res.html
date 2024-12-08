@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="res.css">
+    <title>Réserver un Rendez-vous</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Réserver un Rendez-vous</h1>
+        <nav>
+            <ul>
+                <li><a href="projet.html">Accueil</a></li>
+                <li><a href="traitement.html">Les Traitements</a></li>
+                <li><a href="res.html">Réserver un Rendez-vous</a></li>
+            </ul>
+        </nav>
+    </header>
+    <center>
+    <section id="reservation">
+        <fieldset>
+        <legend><h2>Formulaire de Réservation</h2></legend>
+        <form action="submit_reservation.php" method="POST">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Heure:</label> 
+        <input type="time" id="time" name="time" required>
+
+        <label for="service">Service:</label>
+        <select id="service" name="service">
+            <option value="consultation">Consultation</option>
+            <option value="suivi">Suivi</option>
+            <option value="urgence">Urgence</option>
+    </select>
+    <br>
+    <input type="button" value="Réserver">
+    </fieldset>
+    </section>
+    </center>
+    
+    <footer>
+        <p>Contactez-nous au +216 27 886 591</p>
+    </footer>
+</body>
+</html>
